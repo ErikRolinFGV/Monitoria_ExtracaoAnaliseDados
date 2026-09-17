@@ -16,6 +16,7 @@ Me chamo **Erik Rolin**, sou aluno de Comunicação Digital na FGV e monitor da 
 | `dados/` | As duas bases do simulado: `publicacoes_brutas.csv` (36 linhas) e `publicacoes_analise.csv` (120 linhas) |
 | `exercicios/Exercicios_Extras.ipynb` | 10 exercícios de treino no mesmo caso, com célula em branco para você resolver e gabarito recolhido |
 | `exercicios/dados/` | Os dois CSVs que os exercícios usam. **Não são os mesmos de `dados/`**, e a próxima seção explica a diferença |
+| `Tutorial_Geracao_Guia.md` | Passo a passo para você montar o seu próprio guia de consulta para levar na prova |
 
 ## Comece por aqui
 
@@ -25,6 +26,7 @@ A ordem que eu recomendo é essa, e ela importa:
 2. **Rode a resolução.** As bases estão no repositório, então dá para executar célula por célula e ver o número aparecer. Aproveite para **quebrar o código de propósito**: tire o `format="ISO8601"` da questão 2, troque o `subset` do `drop_duplicates`, use `stratify` na questão 7. As conferências que eu deixei nas células existem justamente para mostrar o estrago, e ver o estrago acontecer ensina mais do que ler sobre ele.
 3. **Faça os exercícios extras** (`exercicios/Exercicios_Extras.ipynb`), com o gabarito fechado. Eles não são a mesma prova de novo: mudei fórmula, mudei o corte, mudei o trio de modelos, e em vários casos o resultado é o **oposto** do simulado. Isso é de propósito. Se você decorou "a logística sempre ganha", o exercício 8 vai te pegar.
 4. **Refaça o exercício 10 cronometrado**, com o caderno fechado. Saber fazer e saber fazer em 35 minutos são coisas diferentes.
+5. **Monte o seu guia de consulta** seguindo o `Tutorial_Geracao_Guia.md`. Você pode levar material próprio para a prova, e um índice de comandos que você mesmo organizou é a diferença entre achar a linha em dez segundos e perder cinco minutos folheando notebook.
 
 E escreva os campos de interpretação **sempre**, mesmo quando o código não sair. Metade da nota está no texto em Markdown, e é justamente a metade que quase ninguém treina.
 
