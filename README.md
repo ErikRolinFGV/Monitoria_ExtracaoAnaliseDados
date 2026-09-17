@@ -74,7 +74,7 @@ A resposta preguiçosa aponta a barra mais alta. A resposta que ganha nota perce
 Para clonar:
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/ErikRolinFGV/Monitoria_ExtracaoAnaliseDados.git
 ```
 
 Se preferir, dá para baixar o zip direto pelo botão verde **Code** aqui em cima. Os notebooks abrem no Jupyter, no VS Code ou no Google Colab. Se for pelo Colab, lembre de subir também a pasta `exercicios/dados/`, senão o `read_csv` não acha os arquivos.
