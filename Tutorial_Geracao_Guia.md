@@ -14,9 +14,9 @@ O que eu posso fazer, e é o que este documento faz, é te contar exatamente com
 
 **A resolução comentada do simulado.** Está neste repositório, em `resolucao_simulado.ipynb`. Ela roda, então abra e execute antes: o guia que você vai gerar sai muito melhor se você já tiver visto o código funcionando.
 
-**Os notebooks das aulas do professor.** Baixe do repositório da disciplina. Não precisa de todos: **as aulas 5, 6, 10, 11, 12 e 13** cobrem tudo que a prova pede. A aula 5 e a 10 são pandas, a 6 é gráfico, a 11 é regressão, a 12 é classificação e a 13 é clusterização.
+**Os notebooks das aulas do professor.** Baixe do repositório da disciplina. Não precisa de todos: **as aulas 5, 6, 10, 11, 12 e 13** cobrem tudo que a prova pede. A aula 5 e a 10 são pandas, a 6 é gráfico, a 11 é regressão, a 12 é classificação e a 13 é clusterização, mas deixe o claude (ou sua IA de preferência) ter acesso a todos os documentos se possível
 
-> Repositório do professor: preencha aqui o link que eu passo na monitoria.
+> Repositório do professor: (https://github.com/mateuspestana/extracao_analise_2026.git)
 
 **O enunciado do simulado.** Se você tiver o texto das oito questões, melhor ainda: é dele que saem as palavras que você vai usar na linha de busca de cada seção.
 

@@ -2,7 +2,7 @@
 
 Bem-vindos! Este repositório é o ponto de apoio da monitoria de Extração e Análise de Dados da FGV Comunicação.
 
-*Atualizado em 17/09/2026.*
+*Atualizado em 18/09/2026.*
 
 ## Quem sou eu
 
@@ -17,6 +17,7 @@ Me chamo **Erik Rolin**, sou aluno de Comunicação Digital na FGV e monitor da 
 | `exercicios/Exercicios_Extras.ipynb` | 10 exercícios de treino no mesmo caso, com célula em branco para você resolver e gabarito recolhido |
 | `exercicios/dados/` | Os dois CSVs que os exercícios usam. **Não são os mesmos de `dados/`**, e a próxima seção explica a diferença |
 | `Tutorial_Geracao_Guia.md` | Passo a passo para você montar o seu próprio guia de consulta para levar na prova |
+| `documentos_guia/` | Todo o material que o tutorial manda anexar na conversa, junto num lugar só: os notebooks das seis aulas que a prova cobre, um resumo de comandos por aula, o simulado em branco e a resolução |
 
 ## Comece por aqui
 
@@ -26,9 +27,34 @@ A ordem que eu recomendo é essa, e ela importa:
 2. **Rode a resolução.** As bases estão no repositório, então dá para executar célula por célula e ver o número aparecer. Aproveite para **quebrar o código de propósito**: tire o `format="ISO8601"` da questão 2, troque o `subset` do `drop_duplicates`, use `stratify` na questão 7. As conferências que eu deixei nas células existem justamente para mostrar o estrago, e ver o estrago acontecer ensina mais do que ler sobre ele.
 3. **Faça os exercícios extras** (`exercicios/Exercicios_Extras.ipynb`), com o gabarito fechado. Eles não são a mesma prova de novo: mudei fórmula, mudei o corte, mudei o trio de modelos, e em vários casos o resultado é o **oposto** do simulado. Isso é de propósito. Se você decorou "a logística sempre ganha", o exercício 8 vai te pegar.
 4. **Refaça o exercício 10 cronometrado**, com o caderno fechado. Saber fazer e saber fazer em 35 minutos são coisas diferentes.
-5. **Monte o seu guia de consulta** seguindo o `Tutorial_Geracao_Guia.md`. Você pode levar material próprio para a prova, e um índice de comandos que você mesmo organizou é a diferença entre achar a linha em dez segundos e perder cinco minutos folheando notebook.
+5. **Monte o seu guia de consulta** seguindo o `Tutorial_Geracao_Guia.md`, com os arquivos de `documentos_guia/`. Você pode levar material próprio para a prova, e um índice de comandos que você mesmo organizou é a diferença entre achar a linha em dez segundos e perder cinco minutos folheando notebook.
 
 E escreva os campos de interpretação **sempre**, mesmo quando o código não sair. Metade da nota está no texto em Markdown, e é justamente a metade que quase ninguém treina.
+
+## A pasta `documentos_guia/`
+
+Vários de vocês travaram no mesmo ponto: o tutorial manda anexar os materiais na conversa, mas o Claude gratuito não aceita link de repositório. Tem que entregar arquivo por arquivo, e aí a pessoa desiste antes de começar.
+
+Esta pasta resolve isso. É tudo que o tutorial pede, junto:
+
+| Arquivo | Para que serve na geração do guia |
+|---|---|
+| `05`, `06`, `10`, `11`, `12`, `13` (`.ipynb`) | Os notebooks das aulas que a prova cobre. São de onde o Claude tira os comandos, e são a razão de a regra 1 do prompt funcionar |
+| `comandos_05.md` ... `comandos_13.md` | Um resumo por aula, em tabela, de cada comando e do efeito dele. Escritos por mim. Servem de índice para você e de atalho para o modelo |
+| `Simulado.ipynb` | O simulado em branco. É dele que saem as palavras que você vai colocar na linha `Ctrl+F` de cada seção, e é por isso que o tutorial insiste em anexar o enunciado |
+| `resolucao_simulado.ipynb` | O mesmo arquivo da raiz, repetido aqui só para você selecionar a pasta inteira de uma vez |
+
+**Como usar:** baixe o repositório, abra `documentos_guia/`, selecione tudo e arraste para a conversa numa mensagem só. Depois cole o prompt do `Tutorial_Geracao_Guia.md`. O limite do plano gratuito é por quantidade de mensagens, então anexar tudo de uma vez é o que te dá margem para os ajustes depois.
+
+**Sobre os gráficos que sumiram.** Tirei as imagens das saídas dos notebooks 06, 11 e 13. Não foi arrumação: aqueles sete gráficos estavam guardados como texto codificado dentro do arquivo e pesavam 426 KB dos 635 KB da pasta. Isso é mais de quatro vezes tudo que existe de código e explicação nas seis aulas somadas, e enviar essa massa consome o seu limite logo na primeira mensagem, que é exatamente o problema que esta pasta existe para resolver. O código que desenha cada gráfico continua lá, e rodando ele o gráfico volta. Toda saída de texto, tabela e print foi preservada.
+
+**Sobre a origem.** Os seis notebooks são do professor, copiados do repositório da disciplina, e a cópia aqui é um retrato de 15/09/2026. Se ele corrigir alguma célula depois dessa data, a versão viva é a dele:
+
+> https://github.com/mateuspestana/extracao_analise_2026
+
+Na dúvida sobre qualquer trecho, a palavra final é a do repositório do professor, não a da minha cópia.
+
+**E o guia pronto, o meu?** Continua fora, e continua de propósito. O tutorial explica o motivo na segunda linha: montar a cola é metade do estudo. Quem quiser comparar a organização do seu com a do meu depois de gerar, é só me chamar.
 
 ## Sobre os dados
 

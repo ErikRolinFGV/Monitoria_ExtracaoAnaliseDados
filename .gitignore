@@ -1,0 +1,14 @@
+# O guia pronto NÃO vai para o repositório.
+# Montar a cola é metade do estudo: o Tutorial_Geracao_Guia.md ensina a gerar,
+# e é isso que os alunos recebem. O arquivo finalizado fica só na minha máquina.
+Claude outputs/
+Guia_Rapido_Consulta*.ipynb
+
+# Ambiente e lixo de execução
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
