@@ -42,9 +42,11 @@ Esta pasta resolve isso. É tudo que o tutorial pede, junto:
 | `05`, `06`, `10`, `11`, `12`, `13` (`.ipynb`) | Os notebooks das aulas que a prova cobre. São de onde o Claude tira os comandos, e são a razão de a regra 1 do prompt funcionar |
 | `comandos_05.md` ... `comandos_13.md` | Um resumo por aula, em tabela, de cada comando e do efeito dele. Escritos por mim. Servem de índice para você e de atalho para o modelo |
 | `Simulado.ipynb` | O simulado em branco. É dele que saem as palavras que você vai colocar na linha `Ctrl+F` de cada seção, e é por isso que o tutorial insiste em anexar o enunciado |
-| `resolucao_simulado.ipynb` | O mesmo arquivo da raiz, repetido aqui só para você selecionar a pasta inteira de uma vez |
+| `resolucao_simulado.ipynb` | O mesmo conteúdo do arquivo da raiz, sem os gráficos guardados como imagem. 123 KB em vez de 375 KB. **É esta cópia que você anexa**, não a da raiz |
 
-**Como usar:** baixe o repositório, abra `documentos_guia/`, selecione tudo e arraste para a conversa numa mensagem só. Depois cole o prompt do `Tutorial_Geracao_Guia.md`. O limite do plano gratuito é por quantidade de mensagens, então anexar tudo de uma vez é o que te dá margem para os ajustes depois.
+**Como usar:** anexe os seis `comandos_XX.md`, o `Simulado.ipynb` e a `resolucao_simulado.ipynb` desta pasta, numa mensagem só, junto com o prompt do `Tutorial_Geracao_Guia.md`.
+
+**Não anexe os seis notebooks das aulas.** Eles somam 199 KB e repetem em prosa o que os `comandos_XX.md` já dizem em tabela. Anexar tudo quase quadruplica o consumo e é o motivo de o limite do plano gratuito estourar no meio da escrita do guia. Eles estão na pasta para você consultar e para o caso de faltar alguma coisa numa aula específica, não para entrar todos na conversa.
 
 **Sobre os gráficos que sumiram.** Tirei as imagens das saídas dos notebooks 06, 11 e 13. Não foi arrumação: aqueles sete gráficos estavam guardados como texto codificado dentro do arquivo e pesavam 426 KB dos 635 KB da pasta. Isso é mais de quatro vezes tudo que existe de código e explicação nas seis aulas somadas, e enviar essa massa consome o seu limite logo na primeira mensagem, que é exatamente o problema que esta pasta existe para resolver. O código que desenha cada gráfico continua lá, e rodando ele o gráfico volta. Toda saída de texto, tabela e print foi preservada.
 
